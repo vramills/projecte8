@@ -6,7 +6,7 @@ Digitalitzant les petites i mitjanes empreses.
 
 Nom: Víctor Rodríguez Amills
 
-Formant grups de treball: Christian Bogdanas i Víctor Rodríguez Amills
+Formant grups de treball: Christian Bogdanas, Pol Castaño i Víctor Rodríguez Amills
 
 ## Descripció del projecte
 
