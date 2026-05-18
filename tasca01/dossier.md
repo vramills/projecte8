@@ -10,14 +10,13 @@
 
 1. [Descripció del client](#1-descripció-del-client)
 2. [Anàlisi de l'estat actual](#2-anàlisi-de-lestat-actual)
-3. [Definició d'objectius](#3-definició-dobjectius)
-4. [Informe de Connectivitat](#4-informe-de-connectivitat)
-5. [Inventari de Hardware "Tot Terreny"](#5-inventari-de-hardware-tot-terreny)
-6. [Disseny del Quadern de Camp Digital](#6-disseny-del-quadern-de-camp-digital)
-7. [Comparativa de Software](#7-comparativa-de-software)
-8. [Dilema: Programari Local vs. Núvol](#8-dilema-programari-local-vs-núvol)
-9. [Pressupost "Claus en Mà"](#9-pressupost-claus-en-mà)
-10. [Conclusions](#10-conclusions)
+3. [Informe de Connectivitat](#3-informe-de-connectivitat)
+4. [Inventari de Hardware "Tot Terreny"](#4-inventari-de-hardware-tot-terreny)
+5. [Disseny del Quadern de Camp Digital](#5-disseny-del-quadern-de-camp-digital)
+6. [Comparativa de Software](#6-comparativa-de-software)
+7. [Dilema: Programari Local vs. Núvol](#7-dilema-programari-local-vs-núvol)
+8. [Pressupost "Claus en Mà"](#8-pressupost-claus-en-mà)
+9. [Conclusions](#9-conclusions)
 
 ---
 
@@ -50,74 +49,56 @@
 
 ---
 
-## 3. Definició d'objectius
-
-### Objectius a curt termini (0–3 mesos)
-- Establir connexió a internet fiable al magatzem i a l'oficina.
-- Adquirir l'equipament hardware necessari.
-- Posar en marxa el quadern de camp digital.
-
-### Objectius a mig termini (3–12 mesos)
-- Tenir traçabilitat completa dels productes (des del camp fins al client).
-- Implementar registre digital de tots els tractaments fitosanitaris i regs.
-- Formar el personal en les eines seleccionades.
-
-### Objectius a llarg termini (> 1 any)
-- Obtenir certificació de sostenibilitat (p. ex., GlobalG.A.P.) gràcies a la traçabilitat digital.
-- Optimitzar els consums d'aigua i fitosanitaris mitjançant l'anàlisi de dades.
-
----
-
-## 4. Informe de Connectivitat
+## 3. Informe de Connectivitat
 
 Atès que la finca no disposa de connexió a internet preinstal·lada, s'han analitzat tres alternatives tecnològiques.
 
-### 4.1 Comparativa de tecnologies d'accés
+### 3.1 Comparativa de tecnologies d'accés
 
 | Criteri                     | Starlink (Satèl·lit)                | Ràdio-enllaç                       | 4G/5G Rural                      |
 | --------------------------- | ----------------------------------- | ---------------------------------- | -------------------------------- |
-| **Velocitat baixada**       | 100–250 Mbps                        | 10–100 Mbps                        | 20–150 Mbps                      |
-| **Velocitat pujada**        | 10–20 Mbps                          | 5–50 Mbps                          | 10–50 Mbps                       |
-| **Latència**                | 25–60 ms                            | 5–30 ms                            | 30–80 ms                         |
+| **Velocitat baixada**       | 100–300 Mbps                        | 10–100 Mbps                        | 20–150 Mbps                      |
+| **Velocitat pujada**        | 15–35 Mbps                          | 5–50 Mbps                          | 10–50 Mbps                       |
+| **Latència**                | 20–50 ms                            | 5–30 ms                            | 30–80 ms                         |
 | **Fiabilitat**              | Alta (pot baixar amb pluja intensa) | Molt alta                          | Dependent de cobertura           |
-| **Instal·lació**            | Senzilla (DIY possible)             | Requereix professional             | Molt senzilla                    |
-| **Cost instal·lació**       | ~500 € (kit)                        | 800–2.000 €                        | 50–150 € (router 4G)             |
-| **Quota mensual**           | ~55–100 €/mes                       | 30–80 €/mes                        | 20–50 €/mes                      |
+| **Instal·lació**            | Senzilla                            | Requereix professional             | Molt senzilla                    |
+| **Cost instal·lació**       | 0 € (hardware gratuït)              | ~500 €                             | ~100 € (router 4G)               |
+| **Quota mensual**           | 29–59 €/mes                         | 20–50 €/mes                        | 20–35 €/mes                      |
 | **Disponibilitat en rural** | Universal (tot el territori)        | Limitada (necessita visió directa) | Dependent de cobertura operadora |
 | **Dependència de tercers**  | Baixa                               | Baixa                              | Alta (operadora)                 |
 
-### 4.2 Recomanació
+### 3.2 Recomanació
 
 **Recomanem Starlink** com a primera opció per als motius següents:
 
 - Cobertura universal, independent de la ubicació geogràfica de la finca.
 - Instal·lació senzilla que el mateix client pot fer sense tècnic.
+- Hardware gratuït sense permanència obligatòria (des de 2025).
 - Velocitat suficient per a totes les aplicacions previstes (quadern digital, còpies de seguretat al núvol, videotrucades).
-- Sense compromís de permanència.
 
-**Com a alternativa econòmica**, si hi ha cobertura 4G suficient de Movistar, Orange o Vodafone, un router 4G extern (p. ex., Huawei B818) representa la solució més econòmica a curt termini.
+**Com a alternativa econòmica**, si hi ha cobertura 4G suficient de Movistar, Orange o Vodafone, un router 4G extern representa la solució més econòmica a curt termini.
 
-### 4.3 Anàlisi de costos de connectivitat (5 anys)
+### 3.3 Anàlisi de costos de connectivitat (5 anys)
 
-| Solució                   | Instal·lació | Quota mensual | Cost total 5 anys |
-| ------------------------- | ------------ | ------------- | ----------------- |
-| **Starlink Standard**     | 499 €        | 55 €/mes      | 3.799 €           |
-| **Ràdio-enllaç**          | 1.500 €      | 50 €/mes      | 4.500 €           |
-| **Router 4G (SIM dades)** | 150 €        | 30 €/mes      | 1.950 €           |
+| Solució                           | Instal·lació           | Quota mensual | Cost total 5 anys |
+| --------------------------------- | ---------------------- | ------------- | ----------------- |
+| **Starlink Residencial 200 Mbps** | 0 € (hardware gratuït) | 39 €/mes      | 2.340 €           |
+| **Ràdio-enllaç**                  | ~500 €                 | ~35 €/mes     | 2.600 €           |
+| **Router 4G (SIM dades)**         | ~100 €                 | 30 €/mes      | 1.900 €           |
 
-> **Nota:** El router 4G és la solució més econòmica, però cal verificar la cobertura a la ubicació exacta de la finca abans de decidir.
+> **Nota:** El router 4G continua sent la solució més econòmica, però cal verificar la cobertura a la ubicació exacta de la finca. Starlink ha eliminat el cost del hardware i ha reduït significativament les quotes mensuals, convertint-se en una alternativa molt competitiva per a zones sense cobertura mòbil.
 
 ---
 
-## 5. Inventari de Hardware "Tot Terreny"
+## 4. Inventari de Hardware "Tot Terreny"
 
-### 5.1 Equipament d'oficina
+### 4.1 Equipament d'oficina
 
 | Component                     | Model recomanat                    | Preu aprox. | Justificació                           |
 | ----------------------------- | ---------------------------------- | ----------- | -------------------------------------- |
 | **Ordinador sobretaula**      | Intel NUC 13 Pro o similar mini-PC | 400–600 €   | Compacte, fiable, baix consum elèctric |
 | **Monitor**                   | LG 24MK430H (24", Full HD)         | 130 €       | Suficient per a gestió agrícola        |
-| **Teclat + ratolí**           | Kit sense fils Logitech MK270      | 30 €        | Còmode i econòmic                      |
+| **Teclat + ratolí**           | Logitech MK270                     | 30 €        | Còmode i econòmic                      |
 | **SAI (Protecció elèctrica)** | APC Back-UPS 700VA                 | 90 €        | Protecció contra talls de llum         |
 | **Disc dur extern (Backup)**  | WD Elements 4TB                    | 80 €        | Còpies de seguretat locals             |
 | **Router/Switch**             | TP-Link Archer AX23                | 60 €        | Distribució de la connexió             |
@@ -127,23 +108,18 @@ Atès que la finca no disposa de connexió a internet preinstal·lada, s'han ana
 - En **2** suports diferents (disc extern + núvol).
 - **1** còpia fora de les instal·lacions (núvol: Google Drive o Nextcloud).
 
-Backup automàtic setmanal amb programari gratuït (Veeam Agent Free per a Windows, o `rsync` si s'usa Linux).
+Backup automàtic setmanal amb programari gratuït (Duplicati per a Windows, o `rsync` si s'usa Linux).
 
-### 5.2 Dispositius mòbils per al camp
+### 4.2 Dispositius mòbils per al camp
 
-| Component                 | Model recomanat                                           | Preu aprox. | Justificació                                                   |
-| ------------------------- | --------------------------------------------------------- | ----------- | -------------------------------------------------------------- |
-| **Tablet rugeritzada**    | Samsung Galaxy Tab Active5                                | 500–650 €   | Certificació MIL-STD-810H, IP68, pantalla llegible sota el sol |
-| **Alternativa econòmica** | Tablet estàndard + funda militar (p. ex., Catalyst o UAG) | 250–400 €   | Protecció equivalent a menor cost                              |
-| **Pantalla**              | Mín. 800 nits de lluminositat                             | —           | Llegible sota llum solar directa                               |
-| **Bateria**               | Mín. 7.000 mAh                                            | —           | Autonomia per a jornada completa de camp                       |
-| **Bateria externa**       | Anker PowerCore 20.000 mAh                                | 45 €        | Reforç per a jornades llargues                                 |
-
-**Recomanació final per al camp:** Si el pressupost és ajustat, una tablet Samsung Galaxy Tab A9+ (pantalla brillant, resistència accepteable) amb funda Catalyst Waterproof és una opció a ~300 € que cobreix el 90% de les necessitats.
+| Component              | Model recomanat            | Preu aprox. | Justificació                                                   |
+| ---------------------- | -------------------------- | ----------- | -------------------------------------------------------------- |
+| **Tablet rugeritzada** | Samsung Galaxy Tab Active5 | 500–650 €   | Certificació MIL-STD-810H, IP68, pantalla llegible sota el sol |
+| **Bateria externa**    | Anker PowerCore 20.000 mAh | 45 €        | Reforç per a jornades llargues                                 |
 
 ---
 
-## 6. Disseny del Quadern de Camp Digital
+## 5. Disseny del Quadern de Camp Digital
 
 El quadern de camp digital ha de substituir la llibreta de paper i permetre registrar des del camp:
 
@@ -152,20 +128,21 @@ El quadern de camp digital ha de substituir la llibreta de paper i permetre regi
 - Incidències i observacions.
 - Collites (quantitat, qualitat, parcel·la).
 
-### 6.1 Requisits funcionals
+### 5.1 Requisits funcionals
 
 - Accessible des de tablet al camp (app mòbil o web responsive).
 - Funcionament **offline** (sincronització quan hi hagi connexió).
 - Exportació de registres per a inspeccions i traçabilitat.
 - Interfície senzilla (el personal pot tenir poca experiència tecnològica).
 
-### 6.2 Opcions de programari analitzades
+### 5.2 Opcions de programari analitzades
 
 **Opció A – Agroptima (SaaS comercial):**
-- App mòbil iOS/Android molt intuïtiva.
-- Registre de tractaments fitosanitaris, regs i quadern de camp.
-- Traçabilitat integrada.
-- Preu: ~25–40 €/mes.
+- App mòbil iOS/Android molt intuïtiva, dissenyada per agricultors.
+- Registre de tractaments fitosanitaris, regs i quadern de camp oficial.
+- Traçabilitat integrada i compatible amb GlobalG.A.P.
+- Funciona sense connexió a internet; sincronitza automàticament quan n'hi ha.
+- Preu: a partir de 249 €/any per usuari (~21 €/mes), variable segons hectàrees i pla (Bàsic, Pro o Premium). Cal sol·licitar pressupost personalitzat.
 
 **Opció B – Odoo (Programari lliure + mòdul agrícola):**
 - ERP complet amb mòduls de gestió agrícola.
@@ -180,36 +157,37 @@ El quadern de camp digital ha de substituir la llibreta de paper i permetre regi
 
 ---
 
-## 7. Comparativa de Software
+## 6. Comparativa de Software
 
-| Criteri                       | Odoo Community (Lliure)          | Agroptima (SaaS)          | Farmbrite (SaaS)          |
-| ----------------------------- | -------------------------------- | ------------------------- | ------------------------- |
-| **Cost llicència**            | 0 €                              | ~30 €/mes                 | ~40 €/mes                 |
-| **Cost servidor/allotjament** | 10–20 €/mes (VPS)                | Inclòs                    | Inclòs                    |
-| **Control de les dades**      | Total (servidor propi)           | Parcial (empresa tercera) | Parcial (empresa tercera) |
-| **Facilitat d'ús**            | Mitja-baixa (requereix formació) | Alta                      | Alta                      |
-| **App mòbil**                 | Sí (limitada offline)            | Sí (offline)              | Sí (offline)              |
-| **Funcionament offline**      | Limitat                          | Sí                        | Sí                        |
-| **Traçabilitat**              | Sí (amb configuració)            | Sí (integrada)            | Sí (integrada)            |
-| **Manteniment**               | Responsabilitat pròpia           | Inclòs                    | Inclòs                    |
-| **Suport tècnic**             | Comunitat / contractar           | Inclòs                    | Inclòs                    |
-| **Escalabilitat**             | Molt alta                        | Mitja                     | Mitja                     |
-| **Compliment normatiu agri.** | Configurable                     | Sí (dissenyat per a això) | Sí                        |
+| Criteri                       | Odoo Community (Lliure)          | Agroptima (SaaS)                        | Farmbrite (SaaS)          |
+| ----------------------------- | -------------------------------- | --------------------------------------- | ------------------------- |
+| **Cost llicència**            | 0 €                              | Des de ~21 €/mes (249 €/any)            | ~40 €/mes                 |
+| **Cost servidor/allotjament** | 10–20 €/mes (VPS)                | Inclòs                                  | Inclòs                    |
+| **Control de les dades**      | Total (servidor propi)           | Parcial (empresa tercera)               | Parcial (empresa tercera) |
+| **Facilitat d'ús**            | Mitja-baixa (requereix formació) | Alta                                    | Alta                      |
+| **App mòbil**                 | Sí (limitada offline)            | Sí (offline)                            | Sí (offline)              |
+| **Funcionament offline**      | Limitat                          | Sí                                      | Sí                        |
+| **Traçabilitat**              | Sí (amb configuració)            | Sí (integrada)                          | Sí (integrada)            |
+| **Manteniment**               | Responsabilitat pròpia           | Inclòs                                  | Inclòs                    |
+| **Suport tècnic**             | Comunitat / contractar           | Inclòs (resposta <4h, lun-div)          | Inclòs                    |
+| **Escalabilitat**             | Molt alta                        | Mitja                                   | Mitja                     |
+| **Compliment normatiu agri.** | Configurable                     | Sí (dissenyat per a això, GlobalG.A.P.) | Sí                        |
 
 ### Recomanació de software
 
 Per a una PIME agrícola amb poc personal tècnic, **recomanem Agroptima** com a primera opció perquè:
 
-- Està dissenyada específicament per a explotacions agrícoles.
+- Està dissenyada específicament per a explotacions agrícoles (creada per agricultors, per a agricultors).
 - L'app mòbil funciona offline (clau per a zones amb connexió inestable).
-- El cost mensual és assumible i inclou suport i manteniment.
-- La corba d'aprenentatge és mínima.
+- El cost anual és assumible i inclou suport i manteniment.
+- La corba d'aprenentatge és mínima; no requereix formació específica.
+- Suporta informes per a GlobalG.A.P., facilitant la certificació futura.
 
 Odoo es recomana com a alternativa si l'explotació vol créixer i necessita un ERP complet, o si la propietat de les dades és una prioritat absoluta.
 
 ---
 
-## 8. Dilema: Programari Local vs. Núvol
+## 7. Dilema: Programari Local vs. Núvol
 
 Atesa la ubicació rural de la finca, aquest és un punt crític.
 
@@ -248,63 +226,68 @@ Atesa la ubicació rural de la finca, aquest és un punt crític.
 
 ---
 
-## 9. Pressupost "Claus en Mà"
+## 8. Pressupost "Claus en Mà"
 
-### 9.1 Inversió inicial (una sola vegada)
+### 8.1 Inversió inicial (una sola vegada)
 
-| Concepte                                | Cost        |
-| --------------------------------------- | ----------- |
-| Kit Starlink Standard (antena + router) | 499 €       |
-| Instal·lació i configuració Starlink    | 0 € (DIY)   |
-| Mini-PC d'oficina (NUC 13 o similar)    | 500 €       |
-| Monitor 24"                             | 130 €       |
-| Teclat + ratolí sense fil               | 30 €        |
-| SAI protecció elèctrica                 | 90 €        |
-| Disc dur extern 4TB (backup)            | 80 €        |
-| Router WiFi d'oficina                   | 60 €        |
-| Tablet Samsung Galaxy Tab Active5       | 600 €       |
-| Funda protectora addicional             | 40 €        |
-| Bateria externa 20.000 mAh              | 45 €        |
-| **TOTAL INVERSIÓ INICIAL**              | **2.074 €** |
+| Concepte                                     | Cost        |
+| -------------------------------------------- | ----------- |
+| Kit Starlink Residencial (hardware gratuït)* | 0 €         |
+| Instal·lació i configuració Starlink         | 0 € (DIY)   |
+| Mini-PC d'oficina (NUC 13 o similar)         | 500 €       |
+| Monitor 24"                                  | 130 €       |
+| Teclat + ratolí sense fil                    | 30 €        |
+| SAI protecció elèctrica                      | 90 €        |
+| Disc dur extern 4TB (backup)                 | 80 €        |
+| Router WiFi d'oficina                        | 60 €        |
+| Tablet Samsung Galaxy Tab Active5            | 600 €       |
+| Funda protectora addicional                  | 40 €        |
+| Bateria externa 20.000 mAh                   | 45 €        |
+| **TOTAL INVERSIÓ INICIAL**                   | **1.575 €** |
 
-### 9.2 Despeses recurrents (mensuals)
+*A partir de 2025, el hardware de Starlink (antena + router) és gratuït per als plans residencials, sense permanència obligatòria.
 
-| Concepte                                      | Cost mensual |
-| --------------------------------------------- | ------------ |
-| Connexió Starlink Standard                    | 55 €         |
-| Llicència Agroptima (quadern de camp digital) | 30 €         |
-| Emmagatzematge al núvol (Google Drive 2TB)    | 10 €         |
-| **TOTAL MENSUAL**                             | **95 €**     |
+### 8.2 Despeses recurrents (mensuals)
 
-### 9.3 Cost total a 3 anys
+| Concepte                                     | Cost mensual |
+| -------------------------------------------- | ------------ |
+| Connexió Starlink Residencial 200 Mbps       | 39 €         |
+| Llicència Agroptima (pla Bàsic, ~249 €/any)* | ~21 €        |
+| Emmagatzematge al núvol (Google Drive 2TB)   | 10 €         |
+| **TOTAL MENSUAL APROXIMAT**                  | **~70 €**    |
+
+*Preu base per usuari. El cost exacte varia segons les hectàrees i el pla. Cal sol·licitar pressupost personalitzat a Agroptima.
+
+### 8.3 Cost total a 3 anys
 
 |                                       | Import      |
 | ------------------------------------- | ----------- |
-| Inversió inicial                      | 2.074 €     |
-| Despeses recurrents (36 mesos × 95 €) | 3.420 €     |
-| **TOTAL 3 ANYS**                      | **5.494 €** |
+| Inversió inicial                      | 1.575 €     |
+| Despeses recurrents (36 mesos × 70 €) | 2.520 €     |
+| **TOTAL 3 ANYS (APROXIMAT)**          | **4.095 €** |
 
-### 9.4 Opció econòmica alternativa
+### 8.4 Opció econòmica alternativa
 
-Si el pressupost és molt ajustat, es pot optar per:
+Si el pressupost és molt ajustat, es pot substituir Starlink per un router 4G en cas que hi hagi cobertura suficient a la finca. La resta d'equipament es manté igual:
 
-| Concepte                                           | Cost                             |
-| -------------------------------------------------- | -------------------------------- |
-| Router 4G (si hi ha cobertura) en lloc de Starlink | 150 € (inversió) + 30 €/mes      |
-| Tablet estàndard + funda militar                   | 300 €                            |
-| PC de sobretaula de gamma econòmica                | 350 €                            |
-| **Total inversió alternativa**                     | **~930 €** + despeses recurrents |
+| Concepte                                       | Cost         |
+| ---------------------------------------------- | ------------ |
+| Router 4G en lloc de Starlink (0 €)            | ~100 €       |
+| Resta d'equipament (igual que opció principal) | 1.575 €      |
+| **Total inversió alternativa**                 | **~1.675 €** |
+
+Amb aquesta opció, el cost mensual baixaria a uns **~61 €/mes** (30 € connexió + 21 € Agroptima + 10 € núvol), i el **total a 3 anys seria d'uns ~3.871 €** (1.675 € + 36 × 61 €).
 
 ---
 
-## 10. Conclusions
+## 9. Conclusions
 
 El pla de transformació digital proposat per a "Fruits de la terra" aborda de forma integral les necessitats de l'explotació agrícola en tres eixos fonamentals:
 
-**Connectivitat:** La implantació de Starlink o una solució 4G elimina la barrera principal per a la digitalització, donant accés a internet fiable en una ubicació rural sense infraestructura prèvia.
+**Connectivitat:** La implantació de Starlink (hardware gratuït, 39 €/mes) o una solució 4G elimina la barrera principal per a la digitalització, donant accés a internet fiable en una ubicació rural sense infraestructura prèvia.
 
 **Hardware:** L'equipament proposat combina un ordinador d'oficina robust amb una estratègia de backup 3-2-1, i dispositius mòbils rugeritzats que permeten treballar al camp en condicions adverses.
 
 **Software:** Agroptima com a quadern de camp digital proporciona una eina especialitzada, intuïtiva i amb funcionament offline, resolent el dilema local/núvol amb una solució híbrida pràctica.
 
-Amb una inversió inicial d'aproximadament **2.074 €** i un cost recurrent de **95 €/mes**, "Fruits de la terra" pot assolir una transformació digital completa que millori la seva eficiència operativa, garanteixi la traçabilitat dels productes i obri la porta a la obtenció de certificacions de qualitat i sostenibilitat.
+Amb una inversió inicial d'aproximadament **1.575 €** i un cost recurrent d'uns **70 €/mes**, "Fruits de la terra" pot assolir una transformació digital completa que millori la seva eficiència operativa, garanteixi la traçabilitat dels productes i obri la porta a l'obtenció de certificacions de qualitat i sostenibilitat com GlobalG.A.P.
