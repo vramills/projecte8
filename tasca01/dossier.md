@@ -108,7 +108,7 @@ Atès que la finca no disposa de connexió a internet preinstal·lada, s'han ana
 - En **2** suports diferents (disc extern + núvol).
 - **1** còpia fora de les instal·lacions (núvol: Google Drive o Nextcloud).
 
-Backup automàtic setmanal amb programari gratuït (Duplicati per a Windows, o `rsync` si s'usa Linux).
+Backup automàtic setmanal amb programari gratuït (Duplicati per a Windows, o rsync si s'usa Linux).
 
 ### 4.2 Dispositius mòbils per al camp
 
@@ -232,7 +232,7 @@ Atesa la ubicació rural de la finca, aquest és un punt crític.
 
 | Concepte                                     | Cost        |
 | -------------------------------------------- | ----------- |
-| Kit Starlink Residencial (hardware gratuït)* | 0 €         |
+| Kit Starlink Residencial (hardware gratuït) | 0 €         |
 | Instal·lació i configuració Starlink         | 0 € (DIY)   |
 | Mini-PC d'oficina (NUC 13 o similar)         | 500 €       |
 | Monitor 24"                                  | 130 €       |
@@ -245,18 +245,14 @@ Atesa la ubicació rural de la finca, aquest és un punt crític.
 | Bateria externa 20.000 mAh                   | 45 €        |
 | **TOTAL INVERSIÓ INICIAL**                   | **1.575 €** |
 
-*A partir de 2025, el hardware de Starlink (antena + router) és gratuït per als plans residencials, sense permanència obligatòria.
-
 ### 8.2 Despeses recurrents (mensuals)
 
 | Concepte                                     | Cost mensual |
 | -------------------------------------------- | ------------ |
 | Connexió Starlink Residencial 200 Mbps       | 39 €         |
-| Llicència Agroptima (pla Bàsic, ~249 €/any)* | ~21 €        |
+| Llicència Agroptima (pla Bàsic, ~249 €/any) | ~21 €        |
 | Emmagatzematge al núvol (Google Drive 2TB)   | 10 €         |
 | **TOTAL MENSUAL APROXIMAT**                  | **~70 €**    |
-
-*Preu base per usuari. El cost exacte varia segons les hectàrees i el pla. Cal sol·licitar pressupost personalitzat a Agroptima.
 
 ### 8.3 Cost total a 3 anys
 
@@ -265,18 +261,6 @@ Atesa la ubicació rural de la finca, aquest és un punt crític.
 | Inversió inicial                      | 1.575 €     |
 | Despeses recurrents (36 mesos × 70 €) | 2.520 €     |
 | **TOTAL 3 ANYS (APROXIMAT)**          | **4.095 €** |
-
-### 8.4 Opció econòmica alternativa
-
-Si el pressupost és molt ajustat, es pot substituir Starlink per un router 4G en cas que hi hagi cobertura suficient a la finca. La resta d'equipament es manté igual:
-
-| Concepte                                       | Cost         |
-| ---------------------------------------------- | ------------ |
-| Router 4G en lloc de Starlink (0 €)            | ~100 €       |
-| Resta d'equipament (igual que opció principal) | 1.575 €      |
-| **Total inversió alternativa**                 | **~1.675 €** |
-
-Amb aquesta opció, el cost mensual baixaria a uns **~61 €/mes** (30 € connexió + 21 € Agroptima + 10 € núvol), i el **total a 3 anys seria d'uns ~3.871 €** (1.675 € + 36 × 61 €).
 
 ---
 
@@ -290,4 +274,4 @@ El pla de transformació digital proposat per a "Fruits de la terra" aborda de f
 
 **Software:** Agroptima com a quadern de camp digital proporciona una eina especialitzada, intuïtiva i amb funcionament offline, resolent el dilema local/núvol amb una solució híbrida pràctica.
 
-Amb una inversió inicial d'aproximadament **1.575 €** i un cost recurrent d'uns **70 €/mes**, "Fruits de la terra" pot assolir una transformació digital completa que millori la seva eficiència operativa, garanteixi la traçabilitat dels productes i obri la porta a l'obtenció de certificacions de qualitat i sostenibilitat com GlobalG.A.P.
+Amb una inversió inicial d'aproximadament **1.575 €** i un cost recurrent d'uns **70 €/mes** pot assolir una transformació digital completa que millori la seva eficiència operativa, garanteixi la traçabilitat dels productes i obri la porta a l'obtenció de certificacions de qualitat i sostenibilitat com GlobalG.A.P.
