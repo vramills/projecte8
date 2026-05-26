@@ -1,5 +1,7 @@
 # 📋 Pla de Sostenibilitat Integral — Coworking Mataró
 
+<img src="img/tasca2.png">
+
 ## 📑 Taula de continguts
 
 1. [Introducció](#1-introducció)
@@ -140,7 +142,7 @@ Tot nou equipament haurà de complir, com a mínim:
 6. Reporting    → Incloure en memòria anual
 ```
 
-<img src="img/3.png" width="800">
+<img src="img/3.png" width="1000">
 
 ### 3.5 Bones pràctiques digitals per a usuaris
 
@@ -153,7 +155,7 @@ Tot nou equipament haurà de complir, com a mínim:
 | 5 | Desactivar HD en videotrucades no crítiques | −30% ample de banda |
 | 6 | Desconnectar carregadors i regletes en finalitzar | Eliminar consum vampir |
 
-<img src="img/1.png" width="800">
+<img src="img/1.png" width="600">
 
 ---
 
@@ -196,9 +198,9 @@ $$\text{PUE} = \frac{\text{Energia total sala IT}}{\text{Energia equips IT}}$$
 | Valor PUE | Qualificació |
 | --- | --- |
 | 1,0 – 1,2 | Excel·lent |
-| 1,2 – 1,5 | **Objectiu del pla** ✅ |
+| 1,2 – 1,5 | **Objectiu del pla** |
 | 1,5 – 2,0 | Acceptable |
-| > 2,0 | Ineficient 🔴 |
+| > 2,0 | Ineficient  |
 
 **Càlcul actual de Coworking Mataró:**
 
@@ -210,7 +212,7 @@ $$\text{PUE} = \frac{\text{Energia total sala IT}}{\text{Energia equips IT}}$$
 
 $$\text{Taxa} = \frac{\text{Equips reutilitzats}}{\text{Total equips gestionats}} \times 100$$
 
-**Exemple:** 28 equips reutilitzats de 36 totals = **77,8%** ✅
+**Exemple:** 28 equips reutilitzats de 36 totals = **77,8%**
 
 ### 5.3 Quadre de comandament
 
@@ -231,10 +233,10 @@ La transformació de Coworking Mataró no requereix grans inversions, sinó una 
 
 ### 7.1 Impacte estimat
 
-- 💰 **Estalvi econòmic:** ~12.000 € en compres no realitzades + 20% factura elèctrica.
-- 🌍 **Estalvi ambiental:** ~2,5 tones de CO₂eq anuals evitades.
-- ♻️ **Residus:** 100% de RAEE traçables i ben gestionats.
-- 🏆 **Reputació:** Coworking Mataró com a referent en sostenibilitat IT a la comarca.
+- **Estalvi econòmic:** ~12.000 € en compres no realitzades + 20% factura elèctrica.
+- **Estalvi ambiental:** ~2,5 tones de CO₂eq anuals evitades.
+- **Residus:** 100% de RAEE traçables i ben gestionats.
+- **Reputació:** Coworking Mataró com a referent en sostenibilitat IT a la comarca.
 
 ### 7.2 Projecció a futur
 
