@@ -48,10 +48,10 @@ Transformar la infraestructura IT de Coworking Mataró en un model circular i ef
 
 | Element | Quantitat | Estat | Impacte |
 | --- | --- | --- | --- |
-| PCs sobretaula (2018) | 20 | HDD, 4 GB RAM, sobreescalfament | ⚠️ Consum elevat |
-| Servidor físic | 1 | Sobredimensionat, 24/7 | 🔴 Crític |
-| Monitors antics | ~15 | Sense inventariar | ❓ Per determinar |
-| Cables i perifèrics | Molts | Sense inventariar | ❓ Per determinar |
+| PCs sobretaula (2018) | 20 | HDD, 4 GB RAM, sobreescalfament | Consum elevat |
+| Servidor físic | 1 | Sobredimensionat, 24/7 | Crític |
+| Monitors antics | ~15 | Sense inventariar | Per determinar |
+| Cables i perifèrics | Molts | Sense inventariar | Per determinar |
 
 ### 2.2 Grups d'interès (*stakeholders*)
 
@@ -76,10 +76,10 @@ Transformar la infraestructura IT de Coworking Mataró en un model circular i ef
 
 | ID | Element | Estat tècnic | Estat ambiental | Acció recomanada |
 | --- | --- | --- | --- | --- |
-| PC-01 a PC-20 | PCs sobretaula | ⚠️ Baix rendiment | ⚠️ Consum elevat | Revitalitzar (SSD + RAM) |
-| SRV-01 | Servidor físic | ⚠️ Sobredimensionat | 🔴 Consum 24/7 | Virtualitzar o migrar |
-| MON-XX | Monitors magatzem | ❓ Per verificar | ❓ Per verificar | Inventariar i classificar |
-| CAB-XX | Cables/perifèrics | ❓ Per verificar | ❓ Per verificar | Reutilitzar o RAEE |
+| PC-01 a PC-20 | PCs sobretaula | Baix rendiment | Consum elevat | Revitalitzar (SSD + RAM) |
+| SRV-01 | Servidor físic | Sobredimensionat | Consum 24/7 | Virtualitzar o migrar |
+| MON-XX | Monitors magatzem | Per verificar | Per verificar | Inventariar i classificar |
+| CAB-XX | Cables/perifèrics | Per verificar | Per verificar | Reutilitzar o RAEE |
 
 ---
 
@@ -117,11 +117,11 @@ En lloc de comprar 20 equips nous, s'amplien els existents amb components certif
 
 Tot nou equipament haurà de complir, com a mínim:
 
-- ✅ Certificació **Energy Star**
-- ✅ Registre **EPEAT** (Bronze, Silver o Gold)
-- ✅ **TCO Certified** (preferentment)
-- ✅ Marcatge **RoHS**
-- ✅ Garantia mínima **3 anys** i disponibilitat de recanvis
+- Certificació **Energy Star**
+- Registre **EPEAT** (Bronze, Silver o Gold)
+- **TCO Certified** (preferentment)
+- Marcatge **RoHS**
+- Garantia mínima **3 anys** i disponibilitat de recanvis
 
 ### 3.4 Gestió de residus (RAEE)
 
@@ -206,7 +206,7 @@ $$\text{PUE} = \frac{\text{Energia total sala IT}}{\text{Energia equips IT}}$$
 
 - Consum total sala servidors: 1.500 kWh/mes
 - Consum equips IT: 900 kWh/mes
-- **PUE actual = 1,67** ⚠️ → *Objectiu post-pla: ≤ 1,5*
+- **PUE actual = 1,67** (*Objectiu post-pla: ≤ 1,5*)
 
 ### 5.2 Taxa de reutilització de hardware
 
