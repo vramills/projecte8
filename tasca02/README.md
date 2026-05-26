@@ -75,6 +75,7 @@ S'ha de redactar un **Pla de Sostenibilitat Integral** que inclogui:
 Dins la carpeta `tasca02` es troben:
 
 - `README.md`: Fitxer amb l'enunciat.
+- `informe.md`: Guia detallada per a cada fase de l'activitat.
 
 ---
 
